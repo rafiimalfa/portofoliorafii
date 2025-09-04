@@ -94,7 +94,7 @@ export default function Expertise(): React.JSX.Element {
 
         {/* DESCRIPTION */}
         <p className="mt-6 md:mt-8 max-w-3xl text-left font-montserrat text-[13px] md:text-[15px] leading-6 md:leading-7 text-white/75 md:ml-0">
-          As a QA Engineer, I have in-depth expertise in ensuring comprehensive product quality.
+          As a QA professional, I have in-depth expertise in ensuring comprehensive product quality.
           I specialize in Automation Testing for testing efficiency, performing meticulous
           Manual Testing, and mastering Performance Testing to guarantee system stability.
           Additionally, I contribute to UI/UX Design to help create an intuitive interface

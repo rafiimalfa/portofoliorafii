@@ -5,7 +5,7 @@ import React from "react";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
-  weight: ["300","400","500","600","700","800","900"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
   display: "swap",
   variable: "--font-montserrat",
 });
@@ -13,9 +13,18 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "RafiiMalfa.",
   description: "Portfolio of Rafii Malfa Razaqa",
+  icons: {
+    icon: "/favicon.png", // favicon utama (harus ada di folder public/)
+    shortcut: "/favicon.png",
+    apple: "/favicon.png", // untuk iOS/apple device
+  },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body
