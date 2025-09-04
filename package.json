@@ -2,9 +2,9 @@
   "name": "portofoliorafii",
   "version": "0.1.0",
   "private": true,
-"scripts": {
+  "scripts": {
     "build": "next build --turbopack",
-    "export": "next build && rm -rf docs && mkdir docs && cp -R out/* docs/ && echo yourdomain.com > docs/CNAME && touch docs/.nojekyll"
+    "deploy": "npm run build && rm -rf docs && mkdir docs && cp -R out/* docs/ && echo rafiimalfa.com > docs/CNAME && touch docs/.nojekyll && git add -A docs && git commit -m \"chore: publish docs $(date -u +'%Y-%m-%d %H:%M')\" || true && git push origin main"
   },
   "dependencies": {
     "next": "15.5.2",
