@@ -9,7 +9,7 @@ type FooterProps = {
 };
 
 export default function Footer({
-  linkedinUrl = "https://www.linkedin.com/in/your-profile",
+  linkedinUrl = "https://www.linkedin.com/in/rafiimalfa",
   watermark = "RAFII MALFA",
 }: FooterProps) {
   const year = new Date().getFullYear();
@@ -35,7 +35,7 @@ export default function Footer({
           className="mt-3 text-2xl md:text-3xl font-semibold"
           style={{ fontFamily: "var(--font-heading)" }}
         >
-          LET'S CONNECT!
+          LET&apos;S CONNECT!
         </h3>
 
         {/* Tombol LinkedIn */}
