@@ -13,11 +13,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "RafiiMalfa.",
   description: "Portfolio of Rafii Malfa Razaqa",
-  icons: {
-    icon: "/favicon.png", // favicon utama (harus ada di folder public/)
-    shortcut: "/favicon.png",
-    apple: "/favicon.png", // untuk iOS/apple device
-  },
+  // Tidak ada lagi konfigurasi "icons" di sini
 };
 
 export default function RootLayout({
@@ -31,7 +27,6 @@ export default function RootLayout({
         className={`${montserrat.variable} antialiased bg-white text-black`}
         style={{ fontFamily: "var(--font-montserrat), sans-serif" }}
       >
-        {/* force light theme */}
         {children}
       </body>
     </html>
