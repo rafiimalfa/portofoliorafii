@@ -5,6 +5,7 @@ import ProfileCapsule from "./ProfileCapsule";
 import Typewriter from "./Typewriter";
 
 const NEON = "#D6FF3F";
+const black = "000000";
 
 export default function Hero(): React.JSX.Element {
   const scrollToAbout = () => {
@@ -20,7 +21,7 @@ export default function Hero(): React.JSX.Element {
       <div className="container mx-auto px-6 relative">
         <div className="max-w-5xl">
           {/* Headline */}
-          <h1 className="text-[14vw] leading-[0.9] font-semibold tracking-tight md:text-[150px] text-black">
+          <h1 className="text-[14vw] leading-[0.9] font-regular tracking-tight md:text-[150px] text-black">
             HI! I AM
           </h1>
 
@@ -31,8 +32,8 @@ export default function Hero(): React.JSX.Element {
               text="RAFII"
               speed={200}
               pauseMs={5000}
-              className="font-semibold leading-none"
-              style={{ fontSize: "min(23vw, 170px)", color: NEON }}
+              className="font-regular leading-none"
+              style={{ fontSize: "min(23vw, 170px)", color: black }}
               showCursor={true}
             />
           </div>

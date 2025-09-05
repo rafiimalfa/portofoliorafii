@@ -126,6 +126,7 @@ export default function Expertise(): React.JSX.Element {
                     priority={idx < 3}
                     draggable={false}
                     className={`object-cover ${x.id === "uiux" ? "scale-115" : ""}`}
+                    
                   />
                 </div>
 
