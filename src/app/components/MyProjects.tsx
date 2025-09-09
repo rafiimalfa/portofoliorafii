@@ -47,7 +47,7 @@ export default function MyProjects(): React.JSX.Element {
       <div className="font-montserrat font-light tracking-[0.18em] text-[22vw] md:text-[168px] uppercase">
         MY TESTING
       </div>
-      <div className="font-montserrat font-light tracking-[0.18em] text-[18vw] md:text-[140px] uppercase">
+      <div className="font-montserrat font-light tracking-[0.18em] text-[22vw] md:text-[168px] uppercase">
         PROJECTS
       </div>
       </div>
